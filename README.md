@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/banner.gif" width="200 " height="200" />
+  <img src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" />
 </div>
 
 ### Hi there 👋
@@ -10,10 +10,10 @@
 ---
 
 <a href="https://www.blackcater.win/" alt="blackcater's blog">
-  <img src="images/social-blog.png" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.png" height="40" />
 </a>
 <a href="mailto:blackcater2015@gmail.com">
-  <img src="images/social-gmail.png" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.png" height="40" />
 </a>
 
 <!-- <img src="images/social-wechat.png" height="40" /> -->
