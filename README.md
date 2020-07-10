@@ -10,10 +10,10 @@
 ---
 
 <a href="https://www.blackcater.win/" alt="blackcater's blog">
-  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.png" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
 </a>
 <a href="mailto:blackcater2015@gmail.com">
-  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.png" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.svg" height="40" />
 </a>
 
 <!-- <img src="images/social-wechat.png" height="40" /> -->
