@@ -2,12 +2,7 @@
   <img src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" />
 </div>
 
-### Hi there 👋
-
-- 🔭 I’m currently working on [vsuite](https://github.com/vsuite/vsuite)
-- 🌱 I’m currently learning C++
-
----
+### Hi there, I'm [Elon Tang](https://www.blackcater.win/) 👋
 
 <a href="https://www.blackcater.win/" alt="blackcater's blog">
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
@@ -16,20 +11,15 @@
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.svg" height="40" />
 </a>
 
-<!-- <img src="images/social-wechat.png" height="40" /> -->
-<!-- <img src="images/social-github.png" height="40" /> -->
+<br />
+<br />
 
-<!--
-**blackcater/blackcater** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 I’m currently working on [vsuite](https://github.com/vsuite/vsuite)
+- 🌱 I’m currently learning [Deno](https://github.com/denoland/deno)
 
-Here are some ideas to get you started:
+**Languages and Tools:**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-javascript.svg"></code>
+<code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-typescript.svg"></code>
+<code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-nodejs.svg"></code>
+<code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-deno.svg"></code>
