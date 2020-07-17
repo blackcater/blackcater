@@ -1,6 +1,4 @@
-<div align="center">
-  <a href="#"><img src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
-</div>
+<a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
 
 ### Hi there, I'm [Elon Tang](https://www.blackcater.win/) 👋
 
