@@ -1,7 +1,5 @@
 ### Hi there, I'm [Elon Tang](https://www.blackcater.win/) 👋
 
-<br />
-
 <a href="https://www.blackcater.win/" alt="blackcater's blog">
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
 </a>
@@ -9,6 +7,7 @@
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.svg" height="40" />
 </a>
 
+<br />
 <br />
 
 Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have been working for about three years. Dedicated to be a fullstack engineer.
