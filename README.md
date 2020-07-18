@@ -1,6 +1,6 @@
-<a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
-
 ### Hi there, I'm [Elon Tang](https://www.blackcater.win/) 👋
+
+<br />
 
 <a href="https://www.blackcater.win/" alt="blackcater's blog">
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
@@ -10,7 +10,10 @@
 </a>
 
 <br />
-<br />
+
+Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have been working for about three years. Dedicated to be a fullstack engineer.
+
+<a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
 
 - 🔭 I’m currently working on [vsuite](https://github.com/vsuite/vsuite)
 - 🌱 I’m currently learning [Deno](https://github.com/denoland/deno)
