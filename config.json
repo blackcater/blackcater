@@ -16,11 +16,11 @@
     "badge": {
       "badges": [
         {
-          "link": "",
+          "link": "https://github.com/blackcater",
           "image": "https://img.shields.io/static/v1?style=for-the-badge&label=CREATED%20BY&message=blackcater&color=000000"
         },
         {
-          "link": "",
+          "link": "https://github.com/blackcater/blackcater/blob/master/LICENSE",
           "image": "https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=Mulan%20PSL&color=000000"
         }
       ]
