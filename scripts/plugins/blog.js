@@ -48,7 +48,7 @@ class BlogPlugin {
     const items = _.get(result, "rss.channel[0].item");
     const content_prefix = `<!-- blog_plugin_start -->
 
-    #### ✏️ <a href="${url}" target="_blank">Recent Blog</a>
+#### ✏️ <a href="${url}" target="_blank">Recent Blog</a>
 
 `;
     const content_suffix = `
@@ -60,7 +60,7 @@ class BlogPlugin {
       const link = item.link[0];
       const date = item.pubDate[0];
 
-      content += `    - <a href='${link}' target='_blank'>${title}</a> - ${getDate(
+      content += `- <a href='${link}' target='_blank'>${title}</a> - ${getDate(
         date
       )}
 `;
