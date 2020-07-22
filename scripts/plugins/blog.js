@@ -13,7 +13,7 @@ class BlogPlugin {
   async apply(config, { log, render }) {
     const { url, rss_url, latest } = _.defaults({ latest: 5 }, _.clone(config));
 
-    log.log("[BlogPlugin] checking environment of...");
+    log.log("[BlogPlugin] checking configuration...");
 
     if (!url) {
       throw new Error("Please configure blog.url");
@@ -48,7 +48,7 @@ class BlogPlugin {
     const items = _.get(result, "rss.channel[0].item");
     const content_prefix = `<!-- blog_plugin_start -->
 
-#### ✏️ <a href="${url}" target="_blank">Recent Blog</a>
+## ✏️ <a href="${url}" target="_blank">Recent Blog</a>
 
 `;
     const content_suffix = `

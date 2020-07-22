@@ -1,6 +1,9 @@
 const _ = require("lodash");
+const path = require("path");
 
-require("dotenv").config();
+require("dotenv").config({
+  path: path.resolve(process.cwd(), ".env.local"),
+});
 
 class Config {
   constructor() {
