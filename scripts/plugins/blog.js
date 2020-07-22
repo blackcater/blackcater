@@ -1,7 +1,9 @@
-const fs = require("fs");
+// const fs = require("fs");
+// const path = require("path");
 const _ = require("lodash");
 const axios = require("axios");
 const { parseString: parseXml } = require("xml2js");
+const { getDate } = require("../utils/util");
 
 class BlogPlugin {
   constructor() {
@@ -9,9 +11,13 @@ class BlogPlugin {
   }
 
   async apply(config, { log, render }) {
-    const { rss_url, latest } = _.defaults({ latest: 5 }, _.clone(config));
+    const { url, rss_url, latest } = _.defaults({ latest: 5 }, _.clone(config));
 
     log.log("[BlogPlugin] checking environment of...");
+
+    if (!url) {
+      throw new Error("Please configure blog.url");
+    }
 
     if (!rss_url) {
       throw new Error("Please configure blog.rss_url");
@@ -19,25 +25,47 @@ class BlogPlugin {
 
     log.log(`[BlogPlugin] loading xml content from ${rss_url}...`);
 
-    // const data = fs.readFileSync("./rss.xml") || (await axios.get(rss_url));
+    const { data } = await axios.get(rss_url);
 
-    // if (!data) {
-    //   throw new Error(`Cannot load '${rss_url}'`);
-    // }
+    if (!data) {
+      throw new Error(`Cannot load '${rss_url}'`);
+    }
 
-    // const result = await new Promise((resolve, reject) => {
-    //   parseXml(data, (err, result) => {
-    //     if (err) {
-    //       return reject(err);
-    //     }
+    const result = await new Promise((resolve, reject) => {
+      parseXml(data, (err, result) => {
+        if (err) {
+          return reject(err);
+        }
 
-    //     console.log(result);
+        resolve(result);
+      });
+    });
 
-    //     resolve(result);
-    //   });
-    // });
+    const items = _.get(result, "rss.channel[0].item");
+    const content_prefix = `<!-- blog_plugin_start -->
 
-    // log.log(_.get(result, "rss.channel[0].item"));
+    #### ✏️ <a href="${url}" target="_blank">Recent Blog</a>
+
+`;
+    const content_suffix = `
+<!-- blog_plugin_end -->`;
+    let content = ``;
+
+    items.slice(0, latest).forEach((item) => {
+      const title = item.title[0];
+      const link = item.link[0];
+      const date = item.pubDate[0];
+
+      content += `    - <a href='${link}' target='_blank'>${title}</a> - ${getDate(
+        date
+      )}
+`;
+    });
+
+    render(
+      `${this.name}_plugin`,
+      `${content_prefix}${content}${content_suffix}`
+    );
   }
 }
 

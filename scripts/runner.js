@@ -44,7 +44,7 @@ class Runner {
   async run() {
     const api = {
       log: signale,
-      render: this.generator.render,
+      render: this.generator.render.bind(this.generator),
     };
 
     for await (const plugin of this.plugins) {
