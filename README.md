@@ -16,10 +16,10 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 
 <a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
 
+<!-- blog_plugin_start -->
+
 #### ✏️ <a href="https://tw93.github.io/" target="_blank">Recent Blog</a>
 
-<!-- blog starts -->
-
 - <a href='https://www.blackcater.win/2019/04-09/iview-usage-experience' target='_blank'>iview 使用经验总结</a> - 2019-04-09
 - <a href='https://www.blackcater.win/2019/03-01/deploy-your-own-npm-registry' target='_blank'>搭建是有 NPM</a> - 2019-03-01
 - <a href='https://www.blackcater.win/2019/02-08/mini-program-usage-experience-for-finger' target='_blank'>“Finger 音乐课堂”小程序开发总结</a> - 2019-02-08
@@ -27,11 +27,11 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 - <a href='https://www.blackcater.win/2019/03-01/deploy-your-own-npm-registry' target='_blank'>搭建是有 NPM</a> - 2019-03-01
 - <a href='https://www.blackcater.win/2019/02-08/mini-program-usage-experience-for-finger' target='_blank'>“Finger 音乐课堂”小程序开发总结</a> - 2019-02-08
 
-<!-- blog ends -->
+<!-- blog_plugin_end -->
+
+<!-- blog_plugin_start -->
 
 #### 🎯 <a href="https://github.com/tw93/tw93/blob/main/releases.md" target="_blank">Product Releases</a>
-
-<!-- recent_releases starts -->
 
 - <a href='https://github.com/vsuite/vsuite/releases/tag/v2.1.0' target='_blank'>vsuite@2.1.0 released</a> - 2020-07-20
 - <a href='https://github.com/vsuite/vsuite/releases/tag/v2.0.0' target='_blank'>vsuite@2.0.0 released</a> - 2020-07-20
@@ -39,11 +39,11 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 - <a href='https://github.com/vsuite/vsuite/releases/tag/v1.8.0' target='_blank'>vsuite@1.8.0 released</a> - 2020-07-20
 - <a href='https://github.com/vsuite/vsuite/releases/tag/v1.7.0' target='_blank'>vsuite@1.8.0 released</a> - 2020-07-20
 
-<!-- recent_releases ends -->
+<!-- blog_plugin_end -->
+
+<!-- wakatime_plugin_start -->
 
 #### 🌗 <a href="https://gist.github.com/tw93/7854aac61f991ef4e7ae7b8440e4fdc6" target="_blank">Weekly Development Breakdown</a>
-
-<!-- code_time starts -->
 
 ```text
 Markdown     6 hrs 36 mins  ████████████▒░░░░░░░  47.9%
@@ -54,7 +54,7 @@ JSON               46 mins  ████░░░░░░░░░░░░░�
 JSX                33 mins  ███▓░░░░░░░░░░░░░░░░   4.1%
 ```
 
-<!-- code_time ends -->
+<!-- wakatime_plugin_end -->
 
 **Languages and Tools:**
 

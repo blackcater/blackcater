@@ -1,5 +1,5 @@
 {
-  "actions": {
+  "plugins": {
     "blog": {
       "url": "https://www.blackcater.win/",
       "rss_url": "https://www.blackcater.win/rss.xml",
