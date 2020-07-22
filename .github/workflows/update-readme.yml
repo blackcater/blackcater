@@ -22,16 +22,18 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Generate github profile
-        run: yarn generate
+        run: |-
+          yarn generate
+          cat README.md
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
       - name: Commit and push if changed
-          run: |-
-            git diff
-            git config --global user.email "blackcater2015@gmail.com"
-            git config --global user.name "blackcater"
-            git pull
-            git add -A
-            git commit -m "Daily: Update README.md" || exit 0
-            git push
+        run: |-
+          git diff
+          git config --global user.email "blackcater2015@gmail.com"
+          git config --global user.name "blackcater"
+          git pull
+          git add -A
+          git commit -m "Daily: Update README.md" || exit 0
+          git push
