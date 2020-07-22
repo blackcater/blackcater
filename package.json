@@ -14,11 +14,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "graphql-request": "^2.0.0",
-    "listr": "^0.14.3",
     "lodash": "^4.17.19",
     "signale": "^1.4.0",
-    "text-table": "^0.2.0",
     "wakatime-client": "^2.6.0",
     "xml2js": "^0.4.23"
   },
