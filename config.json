@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "blog": {
+      "url": "https://www.blackcater.win/",
+      "rss_url": "https://www.blackcater.win/rss.xml",
+      "latest": 5
+    },
+    "github": {},
+    "wakatime": {}
+  }
+}

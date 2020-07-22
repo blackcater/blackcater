@@ -1,0 +1,30 @@
+name: Update README.md
+
+on:
+  # 只有推送到 master 分支才会触发
+  # push:
+  #   branches:
+  #     - master
+  schedule:
+    # 每天早上五点，自动触发
+    - cron: "0 5 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: "14"
+      - name: Install dependencies
+        run: yarn install
+      - name: Run tests
+        run: yarn test
+      - name: Generate github profile README.md
+        run: yarn generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}

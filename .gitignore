@@ -1,0 +1,14 @@
+# Operating System
+.DS_Store
+
+
+# Editor
+.vscode/
+.idea/
+
+
+# Node
+node_modules/
+
+# Dot Environment
+.env*

@@ -1,0 +1,17 @@
+{
+  "name": "blackcater",
+  "version": "1.0.0",
+  "description": "blackcater's github profile script",
+  "main": "main.js",
+  "repository": "https://github.com/blackcater/blackcater.git",
+  "author": "Elon Tang <blackcater2015@gmail.com>",
+  "license": "MulanPSL",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md,yml}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
