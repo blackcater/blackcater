@@ -5,7 +5,13 @@
       "rss_url": "https://www.blackcater.win/rss.xml",
       "latest": 5
     },
-    "github": {},
-    "wakatime": {}
+    "github": {
+      "url": "https://github.com/blackcater",
+      "latest": 5
+    },
+    "wakatime": {
+      "url": "https://github.com/blackcater",
+      "latest": 6
+    }
   }
 }
