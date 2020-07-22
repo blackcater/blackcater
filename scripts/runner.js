@@ -2,6 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const signale = require("signale");
 const _ = require("lodash");
+const { Signale } = require("signale");
+const { getDate } = require("./utils/util");
 
 class Runner {
   constructor(generator, config) {
@@ -47,9 +49,21 @@ class Runner {
       render: this.generator.render.bind(this.generator),
     };
 
+    // run plugins
     for await (const plugin of this.plugins) {
+      signale.time(plugin.name);
       await plugin.apply(this.config.getPluginConfig(plugin.name), api);
+      signale.timeEnd();
     }
+
+    // write content to README.md
+    this.generator.update();
+
+    signale.complete({
+      prefix: "[README.md]",
+      message: ["Updated"],
+      suffix: `(${getDate(new Date())})`,
+    });
   }
 }
 

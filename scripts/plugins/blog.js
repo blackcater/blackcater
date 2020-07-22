@@ -31,6 +31,8 @@ class BlogPlugin {
       throw new Error(`Cannot load '${rss_url}'`);
     }
 
+    log.log(`[BlogPlugin] parsing xml content...`);
+
     const result = await new Promise((resolve, reject) => {
       parseXml(data, (err, result) => {
         if (err) {
@@ -40,6 +42,8 @@ class BlogPlugin {
         resolve(result);
       });
     });
+
+    log.log(`[BlogPlugin] updating README.md content...`);
 
     const items = _.get(result, "rss.channel[0].item");
     const content_prefix = `<!-- blog_plugin_start -->

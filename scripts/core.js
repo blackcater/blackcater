@@ -14,7 +14,7 @@ async function start() {
     // Run scripts
     await runner.run();
   } catch (err) {
-    signale.error(err.message);
+    signale.error(err);
   }
 }
 
