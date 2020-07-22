@@ -30,7 +30,7 @@ class BadgePlugin {
     (badges || []).forEach((badge) => {
       const { image, link } = badge;
 
-      content += `![${link}](${image})
+      content += `<a href="${link}" alt="${link}"><img src="${image}"></a>
 `;
     });
 
