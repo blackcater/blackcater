@@ -35,5 +35,5 @@ jobs:
           git config --global user.name "blackcater"
           git pull
           git add -A
-          git commit -m "Daily: Update README.md" || exit 0
+          git commit -m "Daily: update README.md" || exit 0
           git push
