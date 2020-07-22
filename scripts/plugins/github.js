@@ -24,7 +24,7 @@ class GithubPlugin {
         query: `{
   viewer {
     login
-    watching(first: ${latest}, orderBy: {field: PUSHED_AT, direction: DESC}) {
+    watching(first: ${latest}, orderBy: {field: PUSHED_AT, direction: DESC}, affiliations: OWNER) {
       nodes {
         releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
           nodes {
@@ -55,7 +55,7 @@ class GithubPlugin {
 
     const content_prefix = `<!-- github_plugin_start -->
 
-## ⛳️ <a href="https://github.com/${login}" target="_blank">Project Release</a>
+## ⛳️ Project Release
 
 `;
     const content_suffix = `
@@ -75,6 +75,11 @@ class GithubPlugin {
       )}
 ${message ? `  <br/> ${message}\n` : ""}`;
     });
+
+    if (!content) {
+      content = `Nothing Released
+`;
+    }
 
     render(
       `${this.name}_plugin`,

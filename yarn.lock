@@ -496,6 +496,11 @@ tslib@^1.9.0:
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
 
+wakatime-client@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/wakatime-client/download/wakatime-client-2.6.0.tgz#4210f1c48044707b3d0f45102601529562cd1610"
+  integrity sha1-QhDxxIBEcHs9D0UQJgFSlWLNFhA=
+
 wrap-ansi@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npm.taobao.org/wrap-ansi/download/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"

@@ -1,5 +1,3 @@
-// const fs = require("fs");
-// const path = require("path");
 const _ = require("lodash");
 const axios = require("axios");
 const { parseString: parseXml } = require("xml2js");
@@ -48,7 +46,7 @@ class BlogPlugin {
     const items = _.get(result, "rss.channel[0].item");
     const content_prefix = `<!-- blog_plugin_start -->
 
-## ✏️ <a href="${url}" target="_blank">Recent Blog</a>
+## ✏️ Recent Blog
 
 `;
     const content_suffix = `
