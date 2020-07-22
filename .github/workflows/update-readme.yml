@@ -1,8 +1,8 @@
 name: Update README.md
 
 on:
-  # 只有推送到 master 分支才会触发
   # push:
+  #   # 只有推送到 master 分支才会触发
   #   branches:
   #     - master
   schedule:
@@ -21,10 +21,17 @@ jobs:
           node-version: "14"
       - name: Install dependencies
         run: yarn install
-      - name: Run tests
-        run: yarn test
-      - name: Generate github profile README.md
+      - name: Generate github profile
         run: yarn generate
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
+      - name: Commit and push if changed
+          run: |-
+            git diff
+            git config --global user.email "blackcater2015@gmail.com"
+            git config --global user.name "blackcater"
+            git pull
+            git add -A
+            git commit -m "Daily: Update README.md" || exit 0
+            git push
