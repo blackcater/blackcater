@@ -4,5 +4,7 @@
 
 **🚀 Feature**
 
+- support Github Actions
+
 <!-- **🐛 Bug Fix** -->
 <!-- - Nothing. -->
