@@ -8,7 +8,7 @@ class GithubPlugin {
   }
 
   async apply(config, { log, render }) {
-    const { latest } = _.defaults({ latest: 5 }, _.clone(config));
+    const { latest } = _.defaults(_.clone(config), { latest: 5 });
 
     log.log("[GithubPlugin] checking environment...");
 
@@ -73,7 +73,7 @@ class GithubPlugin {
       content += `- <a href='${url}' target='_blank'>${name}@${tagName}</a> - ${getDate(
         date
       )}
-${message ? `  > ${message}\n` : ""}`;
+${message ? `  <br/> ${message}\n` : ""}`;
     });
 
     render(

@@ -11,7 +11,19 @@
     },
     "wakatime": {
       "url": "https://github.com/blackcater",
-      "latest": 6
+      "latest": 5
+    },
+    "badge": {
+      "badges": [
+        {
+          "link": "",
+          "image": "https://img.shields.io/static/v1?style=for-the-badge&label=CREATED%20BY&message=blackcater&color=000000"
+        },
+        {
+          "link": "",
+          "image": "https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=Mulan%20PSL&color=000000"
+        }
+      ]
     }
   }
 }

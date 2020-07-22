@@ -11,7 +11,7 @@ class BlogPlugin {
   }
 
   async apply(config, { log, render }) {
-    const { url, rss_url, latest } = _.defaults({ latest: 5 }, _.clone(config));
+    const { url, rss_url, latest } = _.defaults(_.clone(config), { latest: 5 });
 
     log.log("[BlogPlugin] checking configuration...");
 
