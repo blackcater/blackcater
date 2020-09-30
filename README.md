@@ -33,8 +33,8 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 
 ## ⛳️ Project Release
 
+- <a href='https://github.com/blackcater/LeetCodeCN-Dark/releases/tag/v1.4.1' target='_blank'>LeetCodeCN-Dark@v1.4.1</a> - 2020-09-30
 - <a href='https://github.com/blackcater/blackcater/releases/tag/v1.0.1' target='_blank'>blackcater@v1.0.1</a> - 2020-07-22
-- <a href='https://github.com/blackcater/LeetCodeCN-Dark/releases/tag/v1.3.0' target='_blank'>LeetCodeCN-Dark@v1.3.0</a> - 2020-09-10
 
 <!-- github_plugin_end -->
 
@@ -43,11 +43,11 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 ## 🌗 Weekly Development Breakdown
 
 ```text
-JavaScript  9 hrs 41 mins  █████████▍░░░░░░░░░░░  45.0%
-Vue.js      5 hrs 10 mins  █████░░░░░░░░░░░░░░░░  24.0%
-JSON        3 hrs 1 min    ██▉░░░░░░░░░░░░░░░░░░  14.0%
-Markdown    1 hr 33 mins   █▌░░░░░░░░░░░░░░░░░░░   7.3%
-LESS        1 hr 2 mins    █░░░░░░░░░░░░░░░░░░░░   4.8%
+JavaScript  8 hrs 56 mins  █████████░░░░░░░░░░░░  43.5%
+Vue.js      5 hrs 10 mins  █████▎░░░░░░░░░░░░░░░  25.2%
+JSON        3 hrs 1 min    ███░░░░░░░░░░░░░░░░░░  14.7%
+Markdown    1 hr 21 mins   █▍░░░░░░░░░░░░░░░░░░░   6.6%
+LESS        1 hr 2 mins    █░░░░░░░░░░░░░░░░░░░░   5.0%
 ```
 
 <!-- wakatime_plugin_end -->
