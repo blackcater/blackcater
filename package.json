@@ -12,7 +12,7 @@
     "generate": "node main.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.19",
     "signale": "^1.4.0",
