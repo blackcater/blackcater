@@ -12,14 +12,14 @@
     "generate": "node main.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "signale": "^1.4.0",
     "wakatime-client": "^2.6.0",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.2.1"
   }
 }
