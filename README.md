@@ -36,7 +36,8 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Currently, I have be
 
 ## ⛳️ Project Release
 
-Nothing Released
+- <a href='https://github.com/blackcater/blackcater/releases/tag/v1.0.2' target='_blank'>blackcater@v1.0.2</a> - 2021-01-15
+  <br/> Update dependencies.
 
 <!-- github_plugin_end -->
 
@@ -45,11 +46,11 @@ Nothing Released
 ## 🌗 Weekly Development Breakdown
 
 ```text
-JavaScript  7 hrs 25 mins  ██████▏░░░░░░░░░░░░░░  29.6%
-TypeScript  7 hrs 24 mins  ██████▏░░░░░░░░░░░░░░  29.6%
-JSON        6 hrs 12 mins  █████▏░░░░░░░░░░░░░░░  24.8%
-CSS         1 hr 24 mins   █▏░░░░░░░░░░░░░░░░░░░   5.6%
-Markdown    27 mins        ▍░░░░░░░░░░░░░░░░░░░░   1.8%
+JavaScript  7 hrs 32 mins  ███████▋░░░░░░░░░░░░░  36.3%
+TypeScript  4 hrs 46 mins  ████▊░░░░░░░░░░░░░░░░  23.0%
+JSON        4 hrs 35 mins  ████▋░░░░░░░░░░░░░░░░  22.1%
+CSS         1 hr 23 mins   █▍░░░░░░░░░░░░░░░░░░░   6.7%
+Markdown    25 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.0%
 ```
 
 <!-- wakatime_plugin_end -->
