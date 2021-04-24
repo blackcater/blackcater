@@ -14,7 +14,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "signale": "^1.4.0",
     "wakatime-client": "^2.7.0",
     "xml2js": "^0.4.23"
