@@ -3,7 +3,7 @@ src="https://github.com/blackcater/blackcater/raw/master/images/Hi.gif" height="
 
 <br />
 
-<a href="https://www.blackcater.win/" alt="blackcater's blog" target="_blank">
+<a href="https://www.blackcater.com" alt="blackcater's blog" target="_blank">
   <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
 </a>
 <a href="mailto:blackcater@blackcater.dev">
