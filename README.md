@@ -1,16 +1,16 @@
 <h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Elon Tang</a> <img
-src="https://github.com/blackcater/blackcater/raw/master/images/Hi.gif" height="32" /></h1>
+src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" /></h1>
 
 <br />
 
 <a href="https://www.blackcater.com" alt="blackcater's blog" target="_blank">
-  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-blog.svg" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/main/images/social-blog.svg" height="40" />
 </a>
 <a href="mailto:blackcater@blackcater.dev">
-  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-gmail.svg" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/main/images/social-gmail.svg" height="40" />
 </a>
 <a href="https://leetcode-cn.com/u/blackcater/">
-  <img src="https://github.com/blackcater/blackcater/raw/master/images/social-leetcode.svg" height="40" />
+  <img src="https://github.com/blackcater/blackcater/raw/main/images/social-leetcode.svg" height="40" />
 </a>
 
 <br />
@@ -18,7 +18,7 @@ src="https://github.com/blackcater/blackcater/raw/master/images/Hi.gif" height="
 
 Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a fullstack engineer.
 
-<a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/master/images/banner.gif" width="200 " height="200" /></a>
+<a href="#"><img align="right" src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" width="200 " height="200" /></a>
 
 ## ✏️ Recent Blog
 
@@ -60,10 +60,10 @@ LESS        1 hr 31 mins   ▊░░░░░░░░░░░░░░░░�
 
 **Languages and Tools:**
 
-<a href="#" alt="javascript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-javascript.svg"></code></a>
-<a href="#" alt="typescript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-typescript.svg"></code></a>
-<a href="#" alt="nodejs"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-nodejs.svg"></code></a>
-<a href="#" alt="golang"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/master/images/logo-golang.svg"></code></a>
+<a href="#" alt="javascript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-javascript.svg"></code></a>
+<a href="#" alt="typescript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-typescript.svg"></code></a>
+<a href="#" alt="nodejs"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-nodejs.svg"></code></a>
+<a href="#" alt="golang"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-golang.svg"></code></a>
 
 <!-- badge_plugin_start -->
 
