@@ -70,6 +70,6 @@ LESS        1 hr 31 mins   ▊░░░░░░░░░░░░░░░░�
 ---
 
 <a href="https://github.com/blackcater" alt="https://github.com/blackcater"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=CREATED%20BY&message=blackcater&color=000000"></a>
-<a href="https://github.com/blackcater/blackcater/blob/master/LICENSE" alt="https://github.com/blackcater/blackcater/blob/master/LICENSE"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=MIT&color=000000"></a>
+<a href="https://github.com/blackcater/blackcater/blob/main/LICENSE" alt="https://github.com/blackcater/blackcater/blob/main/LICENSE"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=LICENSE&message=MIT&color=000000"></a>
 
 <!-- badge_plugin_end -->
