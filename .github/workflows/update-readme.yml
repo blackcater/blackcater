@@ -2,9 +2,9 @@ name: Update README.md
 
 on:
   push:
-    # 只有推送到 master 分支才会触发
+    # 只有推送到 main 分支才会触发
     branches:
-      - master
+      - main
   schedule:
     # 每天早上五点，自动触发
     - cron: "0 5 * * *"
