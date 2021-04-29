@@ -14,6 +14,8 @@ class BadgePlugin {
   }
 
   async apply(config, { log, render }) {
+    if (!config) return;
+
     const { badges } = _.defaults(_.clone(config), { badges: [] });
 
     log.log(`[BadgePlugin] updating README.md content...`);

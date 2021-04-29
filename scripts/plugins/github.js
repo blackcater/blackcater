@@ -16,6 +16,8 @@ class GithubPlugin {
   }
 
   async apply(config, { log, render }) {
+    if (!config) return;
+
     const { latest } = _.defaults(_.clone(config), { latest: 5 });
 
     log.log("[GithubPlugin] checking environment...");
