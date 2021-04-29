@@ -32,15 +32,13 @@ class GithubPlugin {
         query: `{
   viewer {
     login
-    watching(first: ${latest}, orderBy: {field: PUSHED_AT, direction: DESC}, affiliations: OWNER) {
+    repositories(first: 20, privacy: PUBLIC, orderBy: {field: PUSHED_AT, direction: DESC}, affiliations: [OWNER, ORGANIZATION_MEMBER], isFork: false, isLocked: false) {
       nodes {
-        releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
-          nodes {
-            url
-            tagName
-            updatedAt
-            name
-          }
+        latestRelease {
+          url
+          tagName
+          updatedAt
+          name
         }
         name
       }
@@ -54,10 +52,10 @@ class GithubPlugin {
 
     log.log(`[GithubPlugin] formatting data...`);
 
-    const { login, watching } = _.get(data, "data.viewer") || {};
-    const releases = (_.get(watching, "nodes") || []).filter(
-      (x) => _.get(x, "releases.nodes").length
-    );
+    const { login, repositories } = _.get(data, "data.viewer") || {};
+    const repos = (_.get(repositories, "nodes") || [])
+      .filter((x) => !!x.latestRelease)
+      .slice(0, latest);
 
     log.log(`[GithubPlugin] updating README.md content...`);
 
@@ -70,11 +68,11 @@ class GithubPlugin {
 <!-- github_plugin_end -->`;
     let content = ``;
 
-    releases.forEach((release) => {
-      const name = _.get(release, "name");
+    repos.forEach((repo) => {
+      const name = _.get(repo, "name");
       const { name: message, url, tagName, updatedAt } = _.get(
-        release,
-        "releases.nodes[0]"
+        repo,
+        "latestRelease"
       );
       const date = new Date(updatedAt);
 
