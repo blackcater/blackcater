@@ -36,9 +36,9 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a
 
 ## ⛳️ Project Release
 
+- <a href='https://github.com/blackcater/gatsby-plugin-windicss/releases/tag/0.0.1' target='_blank'>gatsby-plugin-windicss@0.0.1</a> - 2021-04-29
 - <a href='https://github.com/blackcater/blackcater/releases/tag/v1.0.3' target='_blank'>blackcater@v1.0.3</a> - 2021-04-29
   <br/> Update Github plugin.
-- <a href='https://github.com/blackcater/gatsby-plugin-windicss/releases/tag/0.0.1' target='_blank'>gatsby-plugin-windicss@0.0.1</a> - 2021-04-29
 - <a href='https://github.com/blackcater/LeetCodeCN-Dark/releases/tag/v1.4.3' target='_blank'>LeetCodeCN-Dark@v1.4.3</a> - 2021-02-07
 - <a href='https://github.com/blackcater/my-own-dockerfile/releases/tag/1.5.0' target='_blank'>my-own-dockerfile@1.5.0</a> - 2018-01-18
 
@@ -49,11 +49,11 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a
 ## 🌗 Weekly Development Breakdown
 
 ```text
-TypeScript  15 hrs 9 mins  ████████░░░░░░░░░░░░░  38.2%
-JavaScript  11 hrs 51 mins ██████▎░░░░░░░░░░░░░░  29.9%
-JSON        6 hrs 36 mins  ███▌░░░░░░░░░░░░░░░░░  16.7%
-YAML        1 hr 51 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.7%
-LESS        1 hr 7 mins    ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+TypeScript  12 hrs 56 mins ████████░░░░░░░░░░░░░  38.1%
+JavaScript  9 hrs 51 mins  ██████░░░░░░░░░░░░░░░  29.1%
+JSON        6 hrs 7 mins   ███▊░░░░░░░░░░░░░░░░░  18.1%
+YAML        1 hr 17 mins   ▊░░░░░░░░░░░░░░░░░░░░   3.8%
+Markdown    45 mins        ▍░░░░░░░░░░░░░░░░░░░░   2.3%
 ```
 
 <!-- wakatime_plugin_end -->
