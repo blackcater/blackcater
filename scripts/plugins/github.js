@@ -36,11 +36,14 @@ class GithubPlugin {
     login
     repositories(first: 20, privacy: PUBLIC, orderBy: {field: PUSHED_AT, direction: DESC}, affiliations: [OWNER, ORGANIZATION_MEMBER], isFork: false, isLocked: false) {
       nodes {
-        latestRelease {
-          url
-          tagName
-          updatedAt
-          name
+        releases(first: 1) {
+          nodes {
+            url
+            tagName
+            updatedAt
+            name
+            isPrerelease
+          }
         }
         name
       }
@@ -56,7 +59,7 @@ class GithubPlugin {
 
     const { login, repositories } = _.get(data, "data.viewer") || {};
     const repos = (_.get(repositories, "nodes") || [])
-      .filter((x) => !!x.latestRelease)
+      .filter((x) => (_.get(x, "releases.nodes") || []).length)
       .slice(0, latest);
 
     log.log(`[GithubPlugin] updating README.md content...`);
@@ -72,13 +75,13 @@ class GithubPlugin {
 
     repos.forEach((repo) => {
       const name = _.get(repo, "name");
-      const { name: message, url, tagName, updatedAt } = _.get(
+      const { name: message, url, tagName, updatedAt, isPrerelease } = _.get(
         repo,
-        "latestRelease"
+        "releases.nodes[0]"
       );
       const date = new Date(updatedAt);
 
-      content += `- <a href='${url}' target='_blank'>${name}@${tagName}</a> - ${getDate(
+      content += `- <a href='${url}' target='_blank'>${name}@${tagName}${isPrerelease ? `<sup>pre-release</sup>` : ""}</a> - ${getDate(
         date
       )}
 ${message ? `  <br/> ${message}\n` : ""}`;
