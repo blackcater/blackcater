@@ -62,10 +62,19 @@ LESS        1 hr           █▎░░░░░░░░░░░░░░░�
 
 **Languages and Tools:**
 
+<p>
+<img src="https://github.com/blackcater/blackcater/raw/main/images/logo-javascript.svg" height="40" style="vertical-align:down; margin:4px">
+<img src="https://github.com/blackcater/blackcater/raw/main/images/logo-typescript.svg" height="40" style="vertical-align:down; margin:4px">
+<img src="https://github.com/blackcater/blackcater/raw/main/images/logo-nodejs.svg" height="40" style="vertical-align:down; margin:4px">
+<img src="https://github.com/blackcater/blackcater/raw/main/images/logo-golang.svg" height="40" style="vertical-align:down; margin:4px">
+</p>
+
+<!-- ORIGINAL
 <a href="#" alt="javascript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-javascript.svg"></code></a>
 <a href="#" alt="typescript"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-typescript.svg"></code></a>
 <a href="#" alt="nodejs"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-nodejs.svg"></code></a>
 <a href="#" alt="golang"><code><img height="20" src="https://github.com/blackcater/blackcater/raw/main/images/logo-golang.svg"></code></a>
+-->
 
 <!-- badge_plugin_start -->
 
