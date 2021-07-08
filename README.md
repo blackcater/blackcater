@@ -50,6 +50,10 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a
 
 ## 🌗 Weekly Development Breakdown
 
+```text
+Markdown    0 secs         ███████████████████▋░  93.8%
+Git Config  0 secs         █▎░░░░░░░░░░░░░░░░░░░   6.2%
+```
 
 <!-- wakatime_plugin_end -->
 
