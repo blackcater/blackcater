@@ -51,7 +51,6 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a
 ## 🌗 Weekly Development Breakdown
 
 ```text
-JSON        2 mins         █████████████████████ 100.0%
 TypeScript  0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
 ```
 
