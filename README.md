@@ -36,11 +36,11 @@ Hi, I'm Elon Tang, a frontend engineer from China 🇨🇳. Dedicated to being a
 
 ## ⛳️ Project Release
 
+- <a href='https://github.com/blackcater/blackcater/releases/tag/v1.0.0' target='_blank'>blackcater@v1.0.0</a> - 2020-07-22
+  <br/> Support Github Actions
 - <a href='https://github.com/blackcater-labs/unisite/releases/tag/v0.1.0-alpha.3' target='_blank'>unisite@v0.1.0-alpha.3<sup>pre-release</sup></a> - 2021-04-29
   <br/> Migrate to windicss.
 - <a href='https://github.com/blackcater/gatsby-plugin-windicss/releases/tag/0.0.1' target='_blank'>gatsby-plugin-windicss@0.0.1</a> - 2021-04-29
-- <a href='https://github.com/blackcater/blackcater/releases/tag/v1.0.0' target='_blank'>blackcater@v1.0.0</a> - 2020-07-22
-  <br/> Support Github Actions
 - <a href='https://github.com/blackcater/LeetCodeCN-Dark/releases/tag/v1.0.1' target='_blank'>LeetCodeCN-Dark@v1.0.1</a> - 2020-08-14
 - <a href='https://github.com/blackcater/my-own-dockerfile/releases/tag/1.1.0' target='_blank'>my-own-dockerfile@1.1.0</a> - 2017-09-29
 
