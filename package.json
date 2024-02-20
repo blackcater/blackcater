@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "axios": "0.21.1",
-    "dotenv": "10.0.0",
+    "dotenv": "16.4.5",
     "lodash": "4.17.21",
     "signale": "1.4.0",
     "wakatime-client": "2.7.0",
