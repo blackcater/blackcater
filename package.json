@@ -17,7 +17,7 @@
     "lodash": "4.17.21",
     "signale": "1.4.0",
     "wakatime-client": "2.7.0",
-    "xml2js": "0.4.23"
+    "xml2js": "0.5.0"
   },
   "devDependencies": {
     "prettier": "2.3.1"

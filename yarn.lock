@@ -197,10 +197,10 @@ wakatime-client@2.7.0:
   resolved "https://registry.yarnpkg.com/wakatime-client/-/wakatime-client-2.7.0.tgz#a95f0999376c8eddb89ede99e685c2e62b007868"
   integrity sha512-8evdA2P5mKrTHWqVHiQ7X43wQCyZGgfVxlS/r+aypSBXVtM32tfjMjbNNowR6wzfmB5yFjDjxcxPFOYROi476w==
 
-xml2js@0.4.23:
-  version "0.4.23"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
-  integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
+xml2js@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.5.0.tgz#d9440631fbb2ed800203fad106f2724f62c493b7"
+  integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"
